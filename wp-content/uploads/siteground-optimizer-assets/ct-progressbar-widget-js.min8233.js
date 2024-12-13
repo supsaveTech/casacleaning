@@ -1,0 +1,1 @@
+(function(a){var b=function(a,b){elementorFrontend.waypoint(a.find('.ct-progress-bar'),function(){b(this).progressbar()})};a(window).on('elementor/frontend/init',function(){elementorFrontend.hooks.addAction('frontend/element_ready/ct_progressbar.default',b)})})(jQuery)
